@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Article Arrêt Airbnb & Costockage -->
+  <url>
+    <loc>https://costockage-avis.github.io/arret-airbnb-costockage-responsabilite-plateformes</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Analyse Juridique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-01-10T08:00:00+01:00</news:publication_date>
+      <news:title>Arrêt Airbnb 2026 : fin de l'intermédiaire neutre et cas Costockage (Adam Levy-Zauberman)</news:title>
+      <news:keywords>Airbnb, Costockage, Adam Levy-Zauberman, Mickaël Nadjar, clauses abusives, Cour de cassation, Ardian, CGU, hébergeur, éditeur, responsabilité plateforme</news:keywords>
+      <news:stock_tickers>EPA:ALZ</news:stock_tickers>
+    </news:news>
+  </url>
+
+  <!-- Note: Google News sitemap ne doit contenir que les articles des 2 derniers jours -->
+  <!-- Ajouter les nouveaux articles ici et retirer ceux de plus de 48h -->
+
+</urlset>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <title>Page non trouvée (404) | Analyse Juridique</title>
+    <meta name="description" content="La page que vous recherchez n'existe pas ou a été déplacée. Consultez nos analyses sur l'arrêt Airbnb 2026, Costockage et les clauses abusives.">
+    <link rel="canonical" href="https://costockage-avis.github.io/404">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #6a1d29 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #faf9f7;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+        .error-code {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(6rem, 20vw, 12rem);
+            font-weight: 600;
+            line-height: 1;
+            color: #b8860b;
+            text-shadow: 0 4px 20px rgba(184, 134, 11, 0.3);
+        }
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 1rem 0;
+        }
+        p {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .suggestions {
+            text-align: left;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .suggestions h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #b8860b;
+            margin-bottom: 1rem;
+        }
+        .suggestions ul {
+            list-style: none;
+        }
+        .suggestions li {
+            margin-bottom: 0.8rem;
+        }
+        .suggestions a {
+            color: #faf9f7;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .suggestions a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background: #8b2635;
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn:hover {
+            background: #6a1d29;
+            transform: translateY(-2px);
+        }
+        .search-box {
+            margin: 1.5rem 0;
+        }
+        .search-box form {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .search-box input {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .search-box button {
+            padding: 0.8rem 1.5rem;
+            background: #b8860b;
+            border: none;
+            border-radius: 4px;
+            color: #1a1a1a;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1>Page non trouvée</h1>
+        <p>La page que vous recherchez n'existe pas, a été déplacée ou supprimée.</p>
+        
+        <div class="search-box">
+            <form action="/recherche" method="GET">
+                <input type="search" name="q" placeholder="Rechercher sur le site..." aria-label="Rechercher">
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+
+        <div class="suggestions">
+            <h2>Articles populaires</h2>
+            <ul>
+                <li>
+                    <a href="/arret-airbnb-costockage-responsabilite-plateformes">
+                        → Arrêt Airbnb 2026 & Cas Costockage : Clauses Abusives
+                    </a>
+                </li>
+                <li>
+                    <a href="/clauses-abusives">
+                        → Guide des clauses abusives dans les CGU
+                    </a>
+                </li>
+                <li>
+                    <a href="/droit-numerique">
+                        → Droit du numérique : toutes nos analyses
+                    </a>
+                </li>
+                <li>
+                    <a href="/jurisprudence">
+                        → Jurisprudence récente
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <a href="/" class="btn">Retour à l'accueil</a>
+    </div>
+
+    <!-- Schema.org for 404 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Page non trouvée",
+        "description": "Erreur 404 - La page demandée n'existe pas",
+        "url": "https://costockage-avis.github.io/404",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Analyse Juridique",
+            "url": "https://analyse-juridique.fr"
+        }
+    }
+    </script>
+</body>
+</html>

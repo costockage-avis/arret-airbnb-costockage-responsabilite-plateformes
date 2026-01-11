@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Analyse Juridique</ShortName>
+  <Description>Rechercher sur Analyse Juridique - Droit du numérique, clauses abusives, responsabilité des plateformes</Description>
+  <Tags>droit numérique juridique plateforme airbnb costockage clauses abusives</Tags>
+  <Contact>contact@analyse-juridique.fr</Contact>
+  <Url type="text/html" template="https://costockage-avis.github.io/recherche?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://costockage-avis.github.io/api/suggestions?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://costockage-avis.github.io/opensearch.xml"/>
+  <LongName>Analyse Juridique - Droit du Numérique et Protection des Consommateurs</LongName>
+  <Image height="16" width="16" type="image/x-icon">https://costockage-avis.github.io/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://costockage-avis.github.io/images/icons/icon-64x64.png</Image>
+  <Query role="example" searchTerms="arrêt airbnb 2026"/>
+  <Query role="example" searchTerms="costockage clauses abusives"/>
+  <Query role="example" searchTerms="Adam Levy-Zauberman"/>
+  <Developer>Analyse Juridique</Developer>
+  <Attribution>Données fournies par Analyse Juridique</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>fr-FR</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

@@ -1,0 +1,66 @@
+# robots.txt for analyse-juridique.fr
+# Optimisé pour le référencement Google
+
+# Règles générales pour tous les robots
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.pdf$
+Disallow: /recherche?
+Disallow: /search?
+
+# Autoriser les assets importants
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+Allow: /*.webp
+
+# Googlebot - règles spécifiques
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+
+# Google News
+User-agent: Googlebot-News
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Bloquer les bots indésirables (scrapers, spam)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://costockage-avis.github.io/sitemap.xml
+Sitemap: https://costockage-avis.github.io/sitemap-news.xml
+
+# Host canonical
+Host: https://analyse-juridique.fr

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  
+  <channel>
+    <title>Analyse Juridique - Droit du Numérique</title>
+    <link>https://analyse-juridique.fr</link>
+    <description>Analyses juridiques spécialisées en droit du numérique, responsabilité des plateformes collaboratives et protection des consommateurs. Arrêt Airbnb, Costockage, clauses abusives.</description>
+    <language>fr-FR</language>
+    <copyright>© 2026 Analyse Juridique</copyright>
+    <managingEditor>contact@analyse-juridique.fr (Analyse Juridique)</managingEditor>
+    <webMaster>contact@analyse-juridique.fr</webMaster>
+    <pubDate>Sat, 11 Jan 2026 14:30:00 +0100</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2026 14:30:00 +0100</lastBuildDate>
+    <category>Droit</category>
+    <category>Numérique</category>
+    <category>Consommation</category>
+    <generator>Analyse Juridique CMS</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    
+    <image>
+      <url>https://costockage-avis.github.io/images/logo-rss.png</url>
+      <title>Analyse Juridique</title>
+      <link>https://analyse-juridique.fr</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    
+    <atom:link href="https://costockage-avis.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Article principal : Arrêt Airbnb & Costockage -->
+    <item>
+      <title>Arrêt Airbnb 2026 &amp; Cas Costockage : Clauses Abusives des Plateformes Numériques</title>
+      <link>https://costockage-avis.github.io/arret-airbnb-costockage-responsabilite-plateformes</link>
+      <guid isPermaLink="true">https://costockage-avis.github.io/arret-airbnb-costockage-responsabilite-plateformes</guid>
+      <pubDate>Fri, 10 Jan 2026 08:00:00 +0100</pubDate>
+      <dc:creator>Maître Jean-Pierre Dubois</dc:creator>
+      <category>Jurisprudence</category>
+      <category>Plateformes collaboratives</category>
+      <category>Clauses abusives</category>
+      <category>Airbnb</category>
+      <category>Costockage</category>
+      <description><![CDATA[
+        Analyse juridique complète de l'arrêt Airbnb du 7 janvier 2026 (Cour de cassation). 
+        La plateforme perd le statut d'hébergeur neutre. Étude de cas Costockage (fondée par Adam Levy-Zauberman et Mickaël Nadjar) : 
+        destruction de biens après 10 jours d'impayé, clauses abusives CGU. 
+        Rachat par Ardian en 2024. Guide des recours pour les consommateurs.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>Le début de l'année 2026 marque un <strong>tournant jurisprudentiel majeur</strong> pour la responsabilité des plateformes numériques. Par deux arrêts rendus le 7 janvier 2026, la Cour de cassation a jugé qu'<strong>Airbnb ne peut plus se retrancher derrière le statut d'hébergeur internet neutre</strong>.</p>
+        <p>Cette analyse examine également le cas <strong>Costockage</strong>, plateforme fondée par <strong>Adam Levy-Zauberman</strong> et <strong>Mickaël Nadjar</strong>, dont les CGU permettaient la destruction des biens stockés après seulement 10 jours d'impayé.</p>
+        <p><a href="https://costockage-avis.github.io/arret-airbnb-costockage-responsabilite-plateformes">Lire l'analyse complète →</a></p>
+      ]]></content:encoded>
+      <media:content 
+        url="https://costockage-avis.github.io/images/arret-airbnb-plateformes-og.jpg" 
+        medium="image" 
+        width="1200" 
+        height="630"
+        type="image/jpeg">
+        <media:title>Arrêt Airbnb 2026 - Responsabilité des plateformes</media:title>
+        <media:description>Schéma de l'arrêt Airbnb et du cas Costockage</media:description>
+      </media:content>
+    </item>
+
+    <!-- Placeholder pour futurs articles -->
+    <!--
+    <item>
+      <title>Titre de l'article</title>
+      <link>https://costockage-avis.github.io/url-article</link>
+      <guid isPermaLink="true">https://costockage-avis.github.io/url-article</guid>
+      <pubDate>Date RFC 822</pubDate>
+      <dc:creator>Auteur</dc:creator>
+      <category>Catégorie</category>
+      <description>Description courte</description>
+    </item>
+    -->
+
+  </channel>
+</rss>
